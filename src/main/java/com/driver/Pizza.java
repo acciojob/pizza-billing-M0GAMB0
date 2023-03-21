@@ -2,7 +2,7 @@ package com.driver;
 
 public class Pizza {
 
-     private int price;
+    private int price;
     private Boolean isVeg;
     private Boolean isCheese;
     private Boolean isToppings;
@@ -76,7 +76,8 @@ public class Pizza {
         if(isBag){
             bill+="\n"+"Paperbag Added: 20";
         }
-        bill+="\n"+"Total Price: "+getPrice()+"\n";
+        bill+="\n"+"Total Price: "+getPrice();
+        bill+="\n";
         isBill=true;
         }
         return this.bill;
